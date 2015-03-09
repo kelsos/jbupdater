@@ -6,6 +6,7 @@ import requests
 import re
 import shutil
 import xml.etree.ElementTree as eTree
+from build import Build
 from distutils.version import LooseVersion
 from lxml import html
 
@@ -107,9 +108,15 @@ def check_for_updates(data_store):
         product = products.get(ide.name)
         for build in product.keys():
             build_info = product[build]
+            ide_build = Build()
+            ide_build.build_number = build
+            ide_build.download_url = build_info['download_url'] if 'download_url' in build_info.keys() else ""
+            ide_build.major_version = build_info['major_version']
+            ide_build.status = build_info['status']
             if newer_build_available(ide.installed_version, build):
                 ide.available_version = build
                 print(build)
+            ide.builds.append(ide_build)
 
 
 
