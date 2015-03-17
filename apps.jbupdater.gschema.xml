@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<schemalist>
+    <schema id="apps.jbupdater" gettext-domain="apps.jbupdater">
+
+        <key type="b" name="idea-installed">
+            <default>false</default>
+            <summary>Install Intellij IDEA</summary>
+            <description>Enables the installation of IntelliJ IDEA</description>
+        </key>
+
+        <key type="b" name="php-installed">
+            <default>false</default>
+            <summary>Install PhpStorm</summary>
+            <description>Enables the installation of PhpStorm</description>
+        </key>
+
+        <key type="b" name="rb-installed">
+            <default>false</default>
+            <summary>Install RubyMine</summary>
+            <description>Enables installation of RubyMine</description>
+        </key>
+
+        <key type="b" name="py-installed">
+            <default>false</default>
+            <summary>Install PyCharm</summary>
+            <description>Enables the installation of PyCharm</description>
+        </key>
+
+        <key type="b" name="web-installed">
+            <default>false</default>
+            <summary>Install WebStorm</summary>
+            <description>Enables the installation of WebStorm</description>
+        </key>
+
+        <key type="b" name="clion-installed">
+            <default>false</default>
+            <summary>Install CLion</summary>
+            <description>Enables the installation of CLion</description>
+        </key>
+
+        <key type="b" name="dbe-installed">
+            <default>false</default>
+            <summary>Install 0xDBE</summary>
+            <description>Enables the installation of 0xDBE</description>
+        </key>
+
+        <key type="b" name="idea-community">
+            <default>false</default>
+            <summary>IntelliJ Community Edition</summary>
+            <description>The version of Intellij that will be installed is the community edition.</description>
+        </key>
+
+        <key type="b" name="py-community">
+            <default>false</default>
+            <summary>PyCharm Community Edition</summary>
+            <description>The version of PyCharm that will be installed is the community edition.</description>
+        </key>
+
+        <key type="b" name="idea-eap">
+            <default>false</default>
+            <summary>Install Intellij IDEA EAP</summary>
+            <description>Enables the installation of IntelliJ IDEA EAP</description>
+        </key>
+
+        <key type="b" name="php-eap">
+            <default>false</default>
+            <summary>Install PhpStorm EAP</summary>
+            <description>Enables the installation of PhpStorm EAP</description>
+        </key>
+
+        <key type="b" name="rb-eap">
+            <default>false</default>
+            <summary>Install RubyMine EAP</summary>
+            <description>Enables installation of RubyMine EAP</description>
+        </key>
+
+        <key type="b" name="py-eap">
+            <default>false</default>
+            <summary>Install PyCharm EAP</summary>
+            <description>Enables the installation of PyCharm EAP</description>
+        </key>
+
+        <key type="b" name="web-eap">
+            <default>false</default>
+            <summary>Install WebStorm EAP</summary>
+            <description>Enables the installation of WebStorm EAP</description>
+        </key>
+
+        <key type="b" name="clion-eap">
+            <default>false</default>
+            <summary>Install CLion</summary>
+            <description>Enables the installation of CLion EAP</description>
+        </key>
+
+        <key type="b" name="dbe-eap">
+            <default>false</default>
+            <summary>Install 0xDBE EAP</summary>
+            <description>Enables the installation of 0xDBE EAP</description>
+        </key>
+
+    </schema>
+</schemalist>
