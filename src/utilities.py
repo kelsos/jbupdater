@@ -1,14 +1,17 @@
 import getpass
-import pycurl
 import os
-import tarfile
-import requests
 import re
 import shutil
+import tarfile
 import xml.etree.ElementTree as eTree
-from build import Build
 from distutils.version import LooseVersion
+
+import pycurl
+import requests
 from lxml import html
+
+from src.build import Build
+
 
 def download(url, progress_callback):
     filename = url.split('/')[-1]
@@ -117,9 +120,6 @@ def check_for_updates(data_store):
                 ide.available_version = build
                 print(build)
             ide.builds.append(ide_build)
-
-
-
 
 def parse_product_xml(root):
     products = {}

@@ -1,4 +1,4 @@
-from ide import Ide
+from src.ide import Ide
 
 class DataStore:
     def __init__(self):

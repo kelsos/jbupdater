@@ -52,3 +52,9 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Pycharm
+.idea
+
+# Temporary Glade files
+*.glade~

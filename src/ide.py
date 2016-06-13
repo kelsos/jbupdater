@@ -9,11 +9,3 @@ class Ide:
         self.installed = False
         self.install_eap = True
         self.builds = []
-
-
-    # def get_download_url(self):
-    #     m = re.search('.*\/download\/.*', url)
-    #     if m:
-    #         url += "download_thanks.jsp?os=linux&edition=prof"
-    #
-    #
