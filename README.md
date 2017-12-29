@@ -1,5 +1,4 @@
 jbupdater
 =========
 
-Small update utility.
-Work in progress.
+No reason for this thing anymore, due to the toolbox app.
